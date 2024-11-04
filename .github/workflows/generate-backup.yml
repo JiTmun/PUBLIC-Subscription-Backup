@@ -23,7 +23,7 @@ jobs:
       CLOUDENV: 'AzureCloud'
       MAPPED_APP_ID: ${{ secrets.SUB_BACKUP_APP_ID }}
       MAPPED_APP_SECRET: ${{ secrets.SUB_BACKUP_APP_SECRET }}
-      MYVAR: ${{env.MYTESTVAR}}
+      MYVAR: ${{ env.MYTESTVAR }}
       
 # Optional Github Repo token for generating Commit reports     
 #     REPOTOKEN: ${{ secrets.REPOTOKEN }} 
