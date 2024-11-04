@@ -10,7 +10,6 @@
 | Activity Log Alerts     | [Microsoft-Insights-ActivityLogAlerts/README.md](Microsoft-Insights-ActivityLogAlerts/README.md)        |          |
 | Alert Rules     | [Microsoft-SecurityInsights-alertRules/README.md](Microsoft-SecurityInsights-alertRules/README.md)        |          |
 | Connections     | [Microsoft-Web-connections/README.md](Microsoft-Web-connections/README.md)        |          |
-| Diagnostic Settings     | [Microsoft-Insights-diagnosticSettings/README.md](Microsoft-Insights-diagnosticSettings/README.md)        |          |
 | Entity Queries     | [Microsoft-SecurityInsights-entityQueries/README.md](Microsoft-SecurityInsights-entityQueries/README.md)        |          |
 | Playbooks     | [Microsoft-Logic-workflows/README.md](Microsoft-Logic-workflows/README.md)        |          |
 | Saved Searches     | [Microsoft-OperationalInsights-savedSearches/README.md](Microsoft-OperationalInsights-savedSearches/README.md)        |          |
