@@ -28,6 +28,8 @@ jobs:
 #     REPOTOKEN: ${{ secrets.REPOTOKEN }} 
           
     steps:
+      - name : show TenantID - debug
+        run: echo "$TENANT"
       # Check out the repository
       - name: Checkout repository
         uses: actions/checkout@v4
