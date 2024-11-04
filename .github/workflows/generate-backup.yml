@@ -16,8 +16,8 @@ jobs:
    backup:
     runs-on: ubuntu-latest
     env:
-      TENANT: '<ENTER YOUR TENANT NAME>'
-      SUBSCRIPTION: '<ENTER YOUR SUBSCRIPTION ID>'
+      TENANT: '${{ github.AZURE_TENANT_ID }}' # '<ENTER YOUR TENANT NAME>'
+      SUBSCRIPTION:  '${{ github.AZURE_SUBSCRIPTION }}' # '<ENTER YOUR SUBSCRIPTION ID>'
       SCOPE: 'azure'
       DIRECTORY: '${{ github.workspace }}'
       CLOUDENV: 'AzureCloud'
