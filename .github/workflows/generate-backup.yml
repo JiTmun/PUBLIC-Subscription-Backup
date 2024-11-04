@@ -29,7 +29,7 @@ jobs:
           
     steps:
       - name : show TenantID - debug
-        run: echo "$TENANT"
+        run: echo "$MYTESTVAR"
       # Check out the repository
       - name: Checkout repository
         uses: actions/checkout@v4
